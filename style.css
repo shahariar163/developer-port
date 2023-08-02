@@ -8,11 +8,15 @@ h1 {
 
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .onno-color {
     color: rebeccapurple;
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,8 +47,41 @@ section {
     background-repeat: no-repeat;
 }
 
+.sec3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .db {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+
+.shadow-rel {
+    box-shadow: 10px 10px 30px violet;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+#wd-dev{
+    border-right: 7px solid;
+    border-image: linear-gradient(orange yellow);
+    border-image-slice: 1;
+
+}
+#fst{
+    border-right: 7px solid;
+    border-image: linear-gradient(orange yellow);
+    border-image-slice: 1;   
+}
+
+footer p {
+    text-align: center;
 }
